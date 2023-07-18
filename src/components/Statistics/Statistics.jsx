@@ -12,7 +12,7 @@ export const Statistics = ({ title, stats }) => {
             key={stat.id}
             className={css.item}
             style={{ backgroundColor: `${getRandomHexColor()}` }}
-          >
+            >
             <span className={css.label}>{stat.label}</span>
             <span className={css.percentage}>{stat.percentage}&#x25;</span>
           </li>
